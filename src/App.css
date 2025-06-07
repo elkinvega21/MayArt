@@ -1,0 +1,43 @@
+/* Importa las directivas de Tailwind CSS.
+   Asegúrate de que tu configuración de PostCSS y Tailwind esté correcta en tu proyecto Vite
+   para que estas directivas se expandan a las utilidades CSS. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Puedes añadir cualquier estilo personalizado que no quieras manejar con Tailwind aquí */
+/* Por ejemplo, animaciones CSS personalizadas */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fadeInDown 1s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Opcional: Estilo para la fuente Inter (asegúrate de que esté disponible o importada) */
+body {
+  font-family: 'Inter', sans-serif;
+}
