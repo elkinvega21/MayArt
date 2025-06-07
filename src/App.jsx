@@ -76,13 +76,13 @@ function App() {
 
 ¿Podrías darme más información sobre disponibilidad y forma de pago?`;
 
-    const whatsappUrl = `https://wa.me/573001234567?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/573143076397?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     setShowProductModal(false);
   };
 
   const handleViewProcess = () => {
-    window.open('https://wa.me/573001234567?text=¡Hola! Me gustaría conocer más sobre tu proceso creativo', '_blank');
+    window.open('https://wa.me/573143076397?text=¡Hola! Me gustaría conocer más sobre tu proceso creativo', '_blank');
   };
 
   return (
@@ -155,10 +155,11 @@ function App() {
           {/* Description */}
           <div className="max-w-2xl text-center text-black text-xl font-bold leading-relaxed mb-16 px-4">
             <p className="hover:scale-105 transition-transform duration-200">
-              Mayra es una artista increíble que hace las mejores creaciones del mundo. 
-              Ella ha sido reconocida en los Murphy Illustration Awards. Su trabajo ha 
-              sido exhibido en galerías de todo el mundo por su creatividad única, 
-              divertida y llena de amor.
+                Bienvenido a Mayart, donde la creatividad y el arte se unen para crear
+                productos únicos y personalizados. Aquí encontrarás una variedad de creaciones
+                artísticas, desde cuadros personalizados hasta souvenirs únicos, todos diseñados
+                con amor y dedicación. Explora nuestro mundo de arte y descubre cómo podemos
+                hacer realidad tus ideas más creativas.
             </p>
           </div>
         </div>
@@ -226,7 +227,7 @@ function App() {
                 <div className="w-8 h-8 bg-orange-200 border-2 border-black rounded flex items-center justify-center">
                   <span className="text-xs font-bold">🏆</span>
                 </div>
-                <span className="text-2xl font-black">PREMIOS</span>
+                <span className="text-2xl font-black">nuevos lanzamientos</span>
                 <div className="w-8 h-8 bg-orange-200 border-2 border-black rounded flex items-center justify-center">
                   <span className="text-xs font-bold">⭐</span>
                 </div>
@@ -283,10 +284,7 @@ function App() {
               <div className="bg-white border-4 border-black rounded-lg p-10 shadow-lg hover:shadow-xl transition-shadow duration-200">
                 <h3 className="text-3xl font-black mb-6">Mayra, Creadora</h3>
                 <p className="text-xl font-bold leading-relaxed">
-                  Mayra es una artista increíble que acaba de descubrir su Animación para 
-                  Principiantes curso en Domestika. Ella crea personajes en Photoshop y los 
-                  anima en After Effects. Disfruta crear personajes únicos para su trabajo. 
-                  Ella dice que son como preguntas que ella misma se hace.
+                  video youtube
                 </p>
               </div>
             </div>
@@ -296,7 +294,7 @@ function App() {
                 <div className="bg-gray-800 border-2 border-black rounded-lg p-6 mb-6">
                   <div className="bg-gray-600 h-3 w-full mb-4 rounded"></div>
                   <div className="bg-pink-200 border-4 border-black rounded-full w-32 h-32 mx-auto mb-6 flex items-center justify-center">
-                    <span className="text-sm font-bold text-center">TU ANIMACIÓN</span>
+                    <span className="text-sm font-bold text-center">tutoriales o contenido</span>
                   </div>
                   <div className="bg-gray-600 h-3 w-3/4 rounded"></div>
                 </div>
@@ -320,10 +318,10 @@ function App() {
           <div className="inline-block">
             <div className="bg-cyan-400 border-4 border-black rounded-lg p-12 shadow-lg hover:shadow-xl transition-shadow duration-200">
               <div className="w-24 h-32 bg-yellow-200 border-4 border-black rounded-lg mx-auto mb-6 flex items-center justify-center">
-                <span className="text-sm font-bold text-center">TU PERSONAJE SENTADO</span>
+                <span className="text-sm font-bold text-center">dibujo</span>
               </div>
               <div className="w-32 h-20 bg-green-200 border-4 border-black rounded-lg mx-auto flex items-center justify-center">
-                <span className="text-sm font-bold text-center">SILLA</span>
+                <span className="text-sm font-bold text-center">silla</span>
               </div>
             </div>
           </div>
